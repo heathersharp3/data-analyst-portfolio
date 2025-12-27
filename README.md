@@ -33,3 +33,19 @@ See `project2_orders_by_month.sql`
 
 **Key Insight:**  
 Order volume varies by month, which can help identify seasonality and support forecasting or staffing decisions.
+
+---
+
+## Project 3: Revenue by Product
+
+**Business Question:**  
+Which products generate the most revenue?
+
+**Approach:**  
+Joined order line items with product pricing data and calculated revenue by multiplying quantity by price, then aggregated revenue per product.
+
+**SQL Used:**  
+See `project3_revenue_by_product.sql`
+
+**Key Insight:**  
+A small number of products generate a disproportionate share of total revenue, which can inform inventory, pricing, and marketing decisions.
